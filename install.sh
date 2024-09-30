@@ -18,8 +18,4 @@ sudo apt install -y nodejs
 echo "setup rivalz-node-cli"
 npm i -g rivalz-node-cli
 
-# Створення нової сесії з screen і запуск rivalz в ній
-echo "create session screen and run rivalz..."
-screen -S rivalz -dm bash -c "rivalz run"
 
-echo "We can add screen session to this command: screen -r rivalz"
