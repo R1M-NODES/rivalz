@@ -7,6 +7,7 @@ Screen
 
 ```
 screen -S rivalz
+screen -r rivalz
 ```
 Run Node
 
